@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+    background-color: aqua;
+}
+
+/** orientation = vertical-horizontal */
+@media (min-width: 1600px) and (orientation:landscape) { 
+    h1{
+        color: green;
+    }
+}
